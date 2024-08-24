@@ -48,7 +48,7 @@ window.onload = function() {
 
     //load images
     doodlerRightImg = new Image();
-    doodlerRightImg.src = "https://github.com/Sohan899/Game2/blob/main/game%202/doodler-right.png";
+    doodlerRightImg.src = "https://cdn.jsdelivr.net/gh/Sohan899/Game2/game2/doodler-right.png";
     doodler.img = doodlerRightImg;
     doodlerRightImg.onload = function() {
         context.drawImage(doodler.img, doodler.x, doodler.y, doodler.width, doodler.height);
