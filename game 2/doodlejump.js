@@ -48,17 +48,17 @@ window.onload = function() {
 
     //load images
     doodlerRightImg = new Image();
-    doodlerRightImg.src = "./doodler-right.png";
+    doodlerRightImg.src = "https://github.com/Sohan899/Game2/blob/main/game%202/doodler-right.png";
     doodler.img = doodlerRightImg;
     doodlerRightImg.onload = function() {
         context.drawImage(doodler.img, doodler.x, doodler.y, doodler.width, doodler.height);
     }
 
     doodlerLeftImg = new Image();
-    doodlerLeftImg.src = "./doodler-left.png";
+    doodlerLeftImg.src = "https://github.com/Sohan899/Game2/blob/main/game%202/doodler-left.png";
 
     platformImg = new Image();
-    platformImg.src = "./platform.png";
+    platformImg.src = "https://github.com/Sohan899/Game2/blob/main/game%202/platform.png";
 
     velocityY = initialVelocityY;
     placePlatforms();
